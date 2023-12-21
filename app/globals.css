@@ -17,6 +17,18 @@
     @apply sm:px-16 px-6;
 }
 
+.padding-y {
+    @apply sm:py-16 py-12;
+}
+
+.flex-center {
+    @apply flex justify-center items-center;
+}
+
+.flex-end {
+    @apply flex justify-end;
+}
+
 /* END: Globals Styles */
 
 /* START: Navbar Styles */
@@ -36,3 +48,24 @@
 }
 
 /* END: Navbar Styles */
+
+/* START: Hero Styles */
+
+.hero__title-heading {
+    @apply font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158px] md:leading-[114px] sm:leading-[74px] leading-[64px] text-white uppercase;
+}
+
+.hero__title-d {
+    @apply md:w-[212px] sm:w-20 w-[60px] md:h-[108px] sm:h-12 h-[38px] md:border-[18px] border-[9px] border-white rounded-r-[50px] sm:mx-2 mx-[6px];
+}
+
+.hero__image-gradient {
+    background: linear-gradient(
+        97.86deg,
+        #a509ff 0%,
+        #34acc7 53.65%,
+        #a134c7 100%
+    );
+}
+
+/* END: Hero Styles */
