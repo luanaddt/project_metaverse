@@ -4,6 +4,7 @@ import TypingText from "./TypingText";
 import TitleText from "./TitleText";
 import ExploreCard from "./ExploreCard";
 import StartSteps from "./StartSteps";
+import NewFeatures from "./NewFeatures";
 
 export {
     Footer,
@@ -11,5 +12,6 @@ export {
     TypingText,
     TitleText,
     ExploreCard,
-    StartSteps
+    StartSteps,
+    NewFeatures
 }
