@@ -129,3 +129,25 @@
 }
 
 /* END: ExploreCard Styles */
+
+/* START: Feedback Styles */
+
+.feedback-gradient {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.04) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.feedback__content-gradient {
+    position: absolute;
+    width: 200px;
+    height: 316px;
+    left: 0px;
+    top: 0px;
+    background: #8d39a3;
+    filter: blur(175px);
+}
+
+/* END: Feedback Styles */
