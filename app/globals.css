@@ -33,6 +33,10 @@
     @apply flex justify-end;
 }
 
+.flex-between {
+    @apply flex justify-between items-center;
+}
+
 /* END: Globals Styles */
 
 /* START: Home Styles */
